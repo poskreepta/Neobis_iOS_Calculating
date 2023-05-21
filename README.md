@@ -1,6 +1,7 @@
 #  CalculatorApp
 
-This is a simple calculator app that follows the standard design of the Apple calculator. It is built using UIKit and follows the MVVM architectural pattern. The app is designed to be adaptive and provides a user-friendly interface for performing basic arithmetic operations![551-how-to-see-calculator-history-iphone.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/087900a9-5334-48a8-a302-dbf88b934eb5/551-how-to-see-calculator-history-iphone.jpg)
+This is a simple calculator app that follows the standard design of the Apple calculator. It is built using UIKit and follows the MVVM architectural pattern. The app is designed to be adaptive and provides a user-friendly interface for performing basic arithmetic operations
+![enter image description here](https://ritorika.com.ua/images/87/kak-vstavit-delenie-FDEEA74.png)
 ## Features
 -   Standard Apple calculator design
 -   Supports basic arithmetic operations: addition, subtraction, multiplication, and division
