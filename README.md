@@ -1,6 +1,7 @@
 #  CalculatorApp
 
 This is a simple calculator app that follows the standard design of the Apple calculator. It is built using UIKit and follows the MVVM architectural pattern. The app is designed to be adaptive and provides a user-friendly interface for performing basic arithmetic operations
+\
 ![enter image description here](https://ritorika.com.ua/images/87/kak-vstavit-delenie-FDEEA74.png)
 ## Features
 -   Standard Apple calculator design
