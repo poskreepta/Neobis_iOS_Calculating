@@ -17,6 +17,7 @@ class CalculatorViewModel: CalculatorViewModelType {
     
     private(set) var model: CalculatorModel = CalculatorModel()
     
+    //для обновления модели
     var displayText: String {
         return model.displayText
     }
@@ -134,7 +135,6 @@ class CalculatorViewModel: CalculatorViewModelType {
             }
         }
         model.operand2 = getOperandDouble()
-        
     }
     
     private func getOperandDouble() -> Double? {

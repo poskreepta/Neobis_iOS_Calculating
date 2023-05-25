@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         return label
     }()
     
-    
     private let buttons: [[CalculatorButton]] = [
         [.clear, .plusMinus, .percent, .divide],
         [.seven, .eight, .nine, .multiply],
@@ -106,7 +105,6 @@ class ViewController: UIViewController {
             }
             previousRowButtons = rowButtons
         }
-        
     }
     
     @objc private func buttonTapped(_ sender: UIButton) {
@@ -116,7 +114,5 @@ class ViewController: UIViewController {
         viewModel.buttonTapped(button)
         displayLabel.text = viewModel.displayText
     }
-    
-    
 }
 

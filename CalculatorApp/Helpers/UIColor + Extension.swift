@@ -2,7 +2,7 @@
 //  UIColor+Extension.swift
 //  Neobis_iOS_UIScreens
 //
-//  Created by G G on 06.04.2023.
+//  Created by poskreepta on 12.05.23.
 //
 
 import UIKit

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93B855FEB28DD44328F17866 /* libPods-CalculatorApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 364BFCE0D5977EA974E74F86 /* libPods-CalculatorApp.a */; };
+		5D429E8290134261765486AB /* libPods-CalculatorApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C06333A71112F4F4B8D5855 /* libPods-CalculatorApp.a */; };
 		CE286E702A1627A800745E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE286E6F2A1627A800745E5B /* AppDelegate.swift */; };
 		CE286E722A1627A800745E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE286E712A1627A800745E5B /* SceneDelegate.swift */; };
 		CE286E742A1627A800745E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE286E732A1627A800745E5B /* ViewController.swift */; };
@@ -21,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		364BFCE0D5977EA974E74F86 /* libPods-CalculatorApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		388BCAF03D10EB67CF9808E5 /* Pods-CalculatorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorApp.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorApp/Pods-CalculatorApp.debug.xcconfig"; sourceTree = "<group>"; };
-		A22D07A0FAFDA03E50F5094B /* Pods-CalculatorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorApp.release.xcconfig"; path = "Target Support Files/Pods-CalculatorApp/Pods-CalculatorApp.release.xcconfig"; sourceTree = "<group>"; };
+		2C06333A71112F4F4B8D5855 /* libPods-CalculatorApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB72A27CC06A9682E65955C /* Pods-CalculatorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorApp.release.xcconfig"; path = "Target Support Files/Pods-CalculatorApp/Pods-CalculatorApp.release.xcconfig"; sourceTree = "<group>"; };
+		7117F537FFF23AD9EBADC42B /* Pods-CalculatorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorApp.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorApp/Pods-CalculatorApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CE286E6C2A1627A800745E5B /* CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE286E6F2A1627A800745E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE286E712A1627A800745E5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,26 +44,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B855FEB28DD44328F17866 /* libPods-CalculatorApp.a in Frameworks */,
+				5D429E8290134261765486AB /* libPods-CalculatorApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16282300B01D07FF10BD4128 /* Pods */ = {
+		6612666275A354D9E390A67F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				388BCAF03D10EB67CF9808E5 /* Pods-CalculatorApp.debug.xcconfig */,
-				A22D07A0FAFDA03E50F5094B /* Pods-CalculatorApp.release.xcconfig */,
+				7117F537FFF23AD9EBADC42B /* Pods-CalculatorApp.debug.xcconfig */,
+				5FB72A27CC06A9682E65955C /* Pods-CalculatorApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		94F40920F6AC22ACD084906B /* Frameworks */ = {
+		73E11B244462EA0E58D37014 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				364BFCE0D5977EA974E74F86 /* libPods-CalculatorApp.a */,
+				2C06333A71112F4F4B8D5855 /* libPods-CalculatorApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,8 +74,8 @@
 				CE286E9A2A1AAA6E00745E5B /* README.md */,
 				CE286E6E2A1627A800745E5B /* CalculatorApp */,
 				CE286E6D2A1627A800745E5B /* Products */,
-				16282300B01D07FF10BD4128 /* Pods */,
-				94F40920F6AC22ACD084906B /* Frameworks */,
+				6612666275A354D9E390A67F /* Pods */,
+				73E11B244462EA0E58D37014 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,10 +90,10 @@
 		CE286E6E2A1627A800745E5B /* CalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE286E8F2A17898900745E5B /* ViewModel */,
 				CE286E8A2A16375000745E5B /* Helpers */,
-				CE286E852A16286B00745E5B /* ViewController */,
 				CE286E832A16285B00745E5B /* Model */,
+				CE286E8F2A17898900745E5B /* ViewModel */,
+				CE286E852A16286B00745E5B /* ViewController */,
 				CE286E6F2A1627A800745E5B /* AppDelegate.swift */,
 				CE286E712A1627A800745E5B /* SceneDelegate.swift */,
 				CE286E782A1627AA00745E5B /* Assets.xcassets */,
@@ -107,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				CE286E862A16290C00745E5B /* CalculatorModel.swift */,
+				CE286E8D2A17895400745E5B /* CalculatorButton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,7 +125,6 @@
 			children = (
 				CE286E962A1AA12B00745E5B /* UIColor + Extension.swift */,
 				CE286E982A1AA6D200745E5B /* AdaptiveLayoutHelper.swift */,
-				CE286E8D2A17895400745E5B /* CalculatorButton.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -374,7 +374,7 @@
 		};
 		CE286E812A1627AA00745E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 388BCAF03D10EB67CF9808E5 /* Pods-CalculatorApp.debug.xcconfig */;
+			baseConfigurationReference = 7117F537FFF23AD9EBADC42B /* Pods-CalculatorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -402,7 +402,7 @@
 		};
 		CE286E822A1627AA00745E5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22D07A0FAFDA03E50F5094B /* Pods-CalculatorApp.release.xcconfig */;
+			baseConfigurationReference = 5FB72A27CC06A9682E65955C /* Pods-CalculatorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
